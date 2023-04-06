@@ -1,0 +1,68 @@
+<html>
+	 
+	 <head>
+		<title>online Voting System-Register</title>
+		<link rel="stylesheet" href="../onlinevotingsystem3/stylesheet.css">
+	 </head>
+	 
+	 <body>
+		<style>
+			#address{
+				width:25%;
+			}
+			#imagepart{
+				border:2px solid black;
+				border-radius:5px;
+				padding:10px;
+				width:25%;
+			}
+			#role{
+				border:2px solid black;
+				border-radius:5px;
+				padding:10px;
+				width:25%;
+			}
+			#role select{
+				border-radius:5px;
+				padding:10px;
+			}
+		</style>
+		<center>
+		<div id="headerSection">	
+		<h1>Online Voting System</h1>
+		</div>
+		<hr>
+		
+		<div id="bodySection">
+		<h2>Registration</h2>
+		<form action="../api/register.php" method="POST" enctype="multipart/form-data">
+			<input type="text" name="name" placeholder="Enter Name">
+			<input type="number" name="mobile" placeholder="Enter Mobile No."><br><br>
+			<input type="number" name="aadhaar" placeholder="Enter Aadhaar No.">
+			<input type="number" name="voterId" placeholder="Enter Voter Id"><br><br>
+			<input type="password" name="password" placeholder="Password">
+			<input type="password" name="cpassword" placeholder="Confirm Password"><br><br>
+			<input id="address" type="text" name="address" placeholder="Address"><br><br>
+			<!-- <div id="imagepart">
+				Upload image: <input type="file" name="photo">
+			</div> -->
+			<br>
+			<div id="role">
+				Select role: <select name="role" >
+					<option value="1">Voter</option>
+					<option value="2">Team</option>
+				</select>
+			</div>
+			<br><br>
+			<button 
+				style="padding: 5px;
+					   border-radius: 5px;
+					   background-color:#2ecc71">
+			Register</button><br><br>
+			Already user? <a href="../index.html">Login here</a>
+			
+		</form>
+		</div>
+		</center>
+	 </body>
+</html>

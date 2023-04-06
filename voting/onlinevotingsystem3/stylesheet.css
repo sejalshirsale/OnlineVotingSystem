@@ -1,0 +1,81 @@
+	body{
+		background: linear-gradient(45deg, #55cbf3, #3943f5);
+}
+
+#headerSection{
+	padding: 5px;
+}
+
+#headerSection h1{
+	font-family: Cursive;
+}
+
+input{
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#dropbox{
+	padding: 10px;
+	border-radius: 5px;
+	width:12%;
+}
+
+#loginbtn{
+	padding: 5px;
+	border-radius: 5px;
+	background-color:#2ecc71;
+}
+
+.section1{
+		width:30%;
+		height: 50%;
+		background-color: rgb(206, 203, 204  );
+		position:absolute;
+		bottom: 9%;
+		left:10%;
+		border-radius:10px;
+		overflow: hidden;
+}
+
+.profile{
+		height:30%;
+		width: 20%;
+		opacity: 1;
+		position:relative;
+		left:40%;
+		top:20px;
+		border-radius: 10px;
+
+}
+
+.section2{
+		width:30%;
+		height: 50%;
+		background-color:rgb(206, 203, 204  );
+		position:absolute;
+		bottom: 9%;
+		right:10%;
+		border-radius:10px;
+		overflow: hidden;
+
+}
+
+.phoneicon{
+		height:30px;
+		position:relative;
+		left:45%;
+		top:44px;
+}
+
+.talk{
+		margin-left: 60px;
+		margin-top: 50px;
+}
+
+.myself{
+	font-family: cursive;
+}
+
+	
+	
